@@ -10,7 +10,8 @@
     "eslint:comment": "使用 ESLint 检查并自动修复 src 目录下所有扩展名为 .js 和 .vue 的文件",
     "eslint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
     "prettier:comment": "自动格式化当前目录下的所有文件",
-    "prettier": "prettier --write"
+    "prettier": "prettier --write",
+    "prepare": "husky install"
   },
   "dependencies": {
     "axios": "^1.7.7",
@@ -26,7 +27,9 @@
     "@typescript-eslint/parser": "^8.5.0",
     "@vitejs/plugin-vue": "^5.1.2",
     "commitizen": "^4.3.0",
+    "commitlint-config-cz": "^0.13.3",
     "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.2.1",
     "eslint": "^9.10.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
